@@ -1,6 +1,6 @@
 {
   "name": "pn-ng-remotefolder",
-  "version": "1.0.0-rc1-1",
+  "version": "1.0.0-rc1-2",
   "description": "PhantomNet AngularJS remotefolder directive",
   "main": "./dist/pn-remotefolder.js",
   "authors": [
@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.5.0"
+    "angular": "~1.5.0",
+    "pn-jquery-remotefolder": "~1.0.0"
   }
 }
