@@ -11,6 +11,7 @@
                 uploadUrl: scope.uploadUrl,
                 renameUrl: scope.renameUrl,
                 deleteUrl: scope.deleteUrl,
+                multiple: scope.multiple() === false ? false : true,
                 predefinedFileNames: scope.predefinedFileNames()
             };
             var remoteFolder = new PN.Components.RemoteFolder(element, options);
@@ -24,6 +25,7 @@
                 uploadUrl: '@',
                 renameUrl: '@',
                 deleteUrl: '@',
+                multiple: '&',
                 predefinedFileNames: '&'
             },
             link: link
